@@ -1,0 +1,36 @@
+:root{
+    --mc:#008850;
+    --lc:#f9f9f9
+}
+
+.inner{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body{
+    color: #444444;
+    letter-spacing: -0.02em;
+}
+
+/* 현장에서 잘 안쓰지만  부트스트랩에 이렇게 되어있음*/
+.inner>*{
+    flex: 1;
+}
+
+.sc{
+    padding: 100px 0;
+}
+
+.sc h2 {
+   font-size: 36px;
+    font-weight: 700;
+   margin-bottom: 30px
+
+}
+
+.sc .tit{
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
